@@ -1,0 +1,6 @@
+{
+    "base_url": "https://php.nicolas-martins.fr",
+    "base_folder":"/src",
+    "components_folder":"public/",
+    "controllers_folder":"Controllers/"
+}

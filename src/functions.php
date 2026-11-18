@@ -31,9 +31,9 @@ function homeUrl(): string{
 function getPage(string $pageName):void{
 
     getController($pageName, function($p) use ($pageName){
-         getComposant('header.php', ['title'=>$p['title']]);
-         require 'Views/'.$pageName;
-         getComposant('footer.php', ['title'=>$p['title']]);
+         ///getComposant('header.php', ['title'=>$p['title']]);
+         require '../public/'.$pageName;
+         ///getComposant('footer.php', ['title'=>$p['title']]);
     });
        
 }
